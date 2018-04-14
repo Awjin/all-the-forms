@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <title>all the forms</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<h1>&lt; all the forms &gt;</h1>
+<main>
+
+  <!------------------------------------------------------------------------ -->
+
+  <form>
+    <h2>Selection</h2>
+
+    <div>
+      <input type="checkbox" id="check">
+      <label for="check">checkbox</label>
+    </div>
+
+    <div>
+      <input type="radio" name="group"> <label>radio 1</label>
+      <input type="radio" name="group"> <label>radio 2</label>
+      <input type="radio" name="group"> <label>radio 3</label>
+    </div>
+
+    <select>
+      <option selected disabled hidden>-- select --</option>
+      <optgroup label="optgroup 1">
+        <option>option 1</option>
+      </optgroup>
+      <optgroup label="optgroup 2">
+        <option>option 2</option>
+        <option>option 3</option>
+      </optgroup>
+    </select>
+
+    <input type="range" min="0" max="10" step="1">
+
+    <div><button type="submit">submit</button> <button type="reset">reset</button></div>
+  </form>
+
+  <!------------------------------------------------------------------------ -->
+
+  <form>
+    <h2>Text</h2>
+
+    <input type="text" placeholder="text" required>
+
+    <textarea placeholder="textarea"></textarea>
+
+    <input type="number" placeholder="number">
+
+    <input type="email" placeholder="email">
+
+    <input type="tel" placeholder="tel xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+
+    <input type="password" placeholder="password" minlength="8" maxlength="24">
+
+    <input type="search" placeholder="search">
+
+    <input type="url" placeholder="url">
+
+    <div><button type="submit">submit</button> <button type="reset">reset</button></div>
+  </form>
+
+  <!------------------------------------------------------------------------ -->
+
+  <form>
+    <h2>Rich Data</h2>
+
+    <input type="file" accept=".jpg" multiple="true">
+
+    <input type="color">
+
+    <input type="date">
+    <input type="time">
+
+    <!-- Poor support
+    <input type="datetime-local">
+    <input type="month">
+    <input type="week">
+    -->
+
+    <div><button type="submit">submit</button> <button type="reset">reset</button></div>
+  </form>
+
+  <!------------------------------------------------------------------------ -->
+
+</main>
+</body>
+</html>
