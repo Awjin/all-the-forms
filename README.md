@@ -1,5 +1,3 @@
-# HTML Form Reference
+**[All the HTML5 forms](https://awjin.me/all-the-forms)**, all in once place.
 
-All the forms, all in one place
-
-[Check it](https://awjin.me/all-the-forms)
+That's all, folks.
